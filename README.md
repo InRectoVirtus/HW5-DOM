@@ -1,6 +1,6 @@
-[4-ое задание](https://github.com/InRectoVirtus/HW4-js-array#5-%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)  
-[5-ое задание](https://github.com/InRectoVirtus/HW4-js-array#5-%D0%BE%D0%B6-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)  
-[6-ое задание](https://github.com/InRectoVirtus/HW4-js-array#5-%D0%BE%D0%B7-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)  
+[4-ое задание](https://github.com/InRectoVirtus/HW5-DOM/blob/main/README.md#4-%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)  
+[5-ое задание](https://github.com/InRectoVirtus/HW5-DOM/blob/main/README.md#5-%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)  
+[6-ое задание](https://github.com/InRectoVirtus/HW5-DOM/blob/main/README.md#6-%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)  
 #  4-ое задание # 
 
 ## Сделайте так чтобы скрипт грузился параллельно с парсингом html ##  
@@ -102,4 +102,4 @@
     showUserPass.innerHTML = `Мыло ${user}, Пароль ${password}`
     }
 
-> Сначало я данные с инпутов вставляю новые ключи со значениями, потом вызываю функцию в которой обращаюсь к элементу див - ы, которая меняет текст и берёт значения из localStorage<br/>  
+> Сначала я данные с инпутов вставляю новые ключи со значениями, потом вызываю функцию в которой обращаюсь к элементу див - ы, которая меняет текст и берёт значения из localStorage<br/>  
