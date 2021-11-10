@@ -85,21 +85,15 @@
 
 ## При нажатии на кнопку логин: Вывести под формой то что пользователь ввел в двух инпутах, сохранить данные в localStorage.  ##
 
-    function submitForm() {
-    let user = document.getElementById('user').value;
-    let password = document.getElementById('pass').value;
+    document.getElementById("but").addEventListener("click", () => {
+        let user = document.getElementById("user").value
+        let pass = document.getElementById("pass").value
 
-    localStorage.setItem('user', user);
-    localStorage.setItem('password', password);
+        document.getElementById("userpass").innerHTML = `Логин - ${user}, пароль - ${pass}`;
 
-    showCredentials(user, password);
-    }
+        localStorage.setItem('Логин', user);
 
-    const showCredentials = (user, password) => {
+        localStorage.setItem('Пароль', pass);
+    })
 
-    let showUserPass = document.getElementById('userpass')
-
-    showUserPass.innerHTML = `Мыло ${user}, Пароль ${password}`
-    }
-
-> Сначала я данные с инпутов вставляю новые ключи со значениями, потом вызываю функцию в которой обращаюсь к элементу див - ы, которая меняет текст и берёт значения из localStorage<br/>  
+> На нажатии кнопка вызывается функция в которой мы переносим данные с инпутов в див и локальное хранилище<br/>  
