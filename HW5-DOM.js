@@ -14,3 +14,6 @@ const showCredentials = (user, password) => {
 
     showUserPass.innerHTML = `Мыло ${user}, Пароль ${password}`
 }
+
+
+document.getElementById("but").addEventListener("click", submitForm())
